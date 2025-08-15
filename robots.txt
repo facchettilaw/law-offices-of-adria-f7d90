@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://facchettilaw.github.io/law-offices-of-adria-f7d90/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# SEO optimizations
+Crawl-delay: 1
